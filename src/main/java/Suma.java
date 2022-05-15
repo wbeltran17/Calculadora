@@ -15,7 +15,6 @@ public class Suma {
     }
 
     public double sumar() {
-        double result = numero1 + numero2;
-        return result;
+        return numero1 + numero2;
     }
 }

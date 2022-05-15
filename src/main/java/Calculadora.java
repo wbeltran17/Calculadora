@@ -184,6 +184,11 @@ public class Calculadora extends JFrame {
                 dividir = new Division();
                 dividir.setNumero1(numero1);
                 dividir.setNumero2(numero2);
+                if (numero2 == 0){
+                    JOptionPane.showMessageDialog(null, "No es posible dividir por 0", "Error", 2);
+                    limpiar();
+                    return 0;
+                }
                 resultado = dividir.dividir();
                 break;
             default:

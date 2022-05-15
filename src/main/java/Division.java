@@ -15,6 +15,6 @@ public class Division {
     }
 
     public double dividir() {
-        return numero1 * numero2;
+        return numero1 / numero2;
     }
 }
